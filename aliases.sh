@@ -110,7 +110,7 @@ alias cop="xclip -sel clip"
 #alias exi="&& exit"
 alias cls="clear"
 alias ex="exit"
-alias eda="code /home/qwavee/devilbox/bash/aliases.sh"
+alias eda="editAliases"
 alias cod="code . && exit"
 alias dev="kuspit"
 alias react="react"
@@ -136,6 +136,10 @@ function express(){
 	cd ~/me/mern-app/backend/express-api
 	code .
 	npm run dev
+}
+
+function editAliases(){
+	code $(pwd)/dot-files/aliases.sh
 }
 
 # function addAlias(){
