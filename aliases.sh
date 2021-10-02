@@ -139,7 +139,9 @@ function express(){
 }
 
 function editAliases(){
-	code $(pwd)/dot-files/aliases.sh
+	SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+	echo $SCRIPT_DIR
+	code $SCRIPT_DIR/aliases.sh
 }
 
 # function addAlias(){
