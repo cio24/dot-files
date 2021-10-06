@@ -64,6 +64,8 @@ alias gf="git fetch"
 alias gbdr="git push origin --delete"
 alias grm="git reset --merge"
 alias grp="git remote prune origin"
+alias grm="git rm"
+alias gmv="git mv"
 
 # Docker Images
 alias db="docker build"
