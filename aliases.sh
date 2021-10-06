@@ -61,8 +61,11 @@ alias gm="git merge"
 alias gst="git stash"
 alias gsp="git stash pop"
 alias gf="git fetch"
-# Docker Images
+alias gbdr="git push origin --delete"
+alias grm="git reset --merge"
+alias grp="git remote prune origin"
 
+# Docker Images
 alias db="docker build"
 alias dbt="docker build -t"
 alias drp="docker run -p"
@@ -115,9 +118,7 @@ alias cod="code . && exit"
 alias dev="kuspit"
 alias react="react"
 
-
 #npm
-
 alias ni="npm i"
 alias nun="npm update"
 alias nup="npm uninstall"
