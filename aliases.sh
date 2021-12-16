@@ -94,6 +94,7 @@ alias dcs="docker-compose stop"
 alias dci="docker-compose images"
 alias dcps="docker-compose ps"
 alias dcpsa="docker-compose ps -a"
+alias dcr="docker-compose restart"
 
 #General aliases
 alias dif="ls -ld ." # shows the permissions, user owner and group.
